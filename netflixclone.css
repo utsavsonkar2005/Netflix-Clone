@@ -1,0 +1,659 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    background-color: #232323;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* @media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(255, 0, 0);
+        flex-wrap: wrap;
+    }
+    div.First .centercontainer .membershipinput{
+        flex-wrap: wrap;
+    }
+    div.Secondcontainer,
+    div.Thirdcontainer, 
+    div.Fourthcontainer ,
+    div.Fifthcontainer, 
+    div.Sixthcontainer {
+        flex-wrap: wrap;
+    }
+} */
+
+/* ---------------------------------------------------------------------------------------------------- */
+div.First {
+    height: 120vh;
+    width: 100%;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/6cefb2f5-90be-4f57-adc4-f6c3c579273d/3943990c-f4e0-4147-82ad-f531e2b547f3/IN-en-20240401-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+div.First .first_header {
+    padding: 30px 0px;
+    margin: 0px 20px;
+}
+
+div.First .first_header nav {
+    display: flex;
+    height: 10px;
+    width: auto;
+    justify-content: space-between;
+    margin: 0px 130px;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+div.First .first_header img {
+    height: 50px;
+    z-index: 2;
+}
+
+div.First .opacity {
+    opacity: 0.66;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    /* if we set opacity to a background image then background color is mendatory as the opacity will be set in the background image  */
+}
+
+
+div.First .first_header .button button {
+    margin: 0px 10px;
+}
+
+div.First .first_header .button button.language {
+    background-color: transparent;
+    color: white;
+    border-style: ridge;
+    border-radius: 3px;
+    padding: 5px 30px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+div.First .first_header .button button.signin {
+    background-color: rgb(230, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+div.First .centercontainer {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    margin: 0px 30px;
+}
+
+div.First .centercontainer p.big {
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+div.First .centercontainer p.small1 {
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    font-family: sans-serif;
+    padding: 30px 0px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+div.First .centercontainer p.small2 {
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+div.First .centercontainer .membershipinput {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+div.First .centercontainer .membershipinput input {
+    border-style: ridge;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: rgb(255, 255, 255);
+    /* This method will not change the placeholder color to white,this will change the input text color */
+    z-index: 1;
+    position: relative;
+    font-size: 19px;
+    padding: 18px 75px 18px 17px;
+}
+
+#email1::placeholder {
+    color: rgb(143, 143, 143);
+}
+
+#email2::placeholder {
+    color: rgb(143, 143, 143);
+}
+
+div.First .centercontainer .membershipinput button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family: sans-serif;
+    border-style: none;
+    border-radius: 3px;
+    padding: 17px 25px;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px 0px;
+    z-index: 1;
+    position: relative;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+div.Second {
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+div.Second .secondcontainer .text {
+    padding: 30px 0px;
+    margin: 10px;
+}
+
+div.Second .text h2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    /* text-align: left; */
+    /* padding: 0px 50px; */
+    text-align: justify;
+}
+
+div.Second .text p {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+
+    padding: 20px 0px;
+
+}
+
+div.Second .secondcontainer {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+
+
+/* Follow this process to play a video inside a image 
+................................................................. */
+div.Second .secondcontainer .tv-container {
+    position: relative;
+}
+
+div.Second .secondcontainer .tv-container img {
+    width: 501px;
+    height: 380px;
+    /* position: relative; */
+    z-index: 10;
+}
+
+div.Second .secondcontainer .tv-container video {
+    position: absolute;
+    top: 80px;
+    right: -36px;
+    height: 204px;
+    width: 577px;
+}
+
+/* ................................................................. */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+div.Third .thirdcontainer .text {
+    padding: 30px 0px;
+    margin: 10px;
+}
+
+div.Third .text h2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    /* font-size: 40px; */
+    /* text-align: left; */
+    /* padding: 0px 50px; */
+    /* text-align: justify; */
+    font-size: 45px;
+}
+
+div.Third .text p {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 20px 0px;
+
+}
+
+div.Third .thirdcontainer {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+
+
+
+
+div.Third {
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+div.Third .thirdcontainer .tv-container {
+    position: relative;
+}
+
+div.Third .thirdcontainer .tv-container div.card {
+    background-color: black;
+    border: 2px solid #7c7c7c;
+    border-radius: 15px;
+    height: 100px;
+    position: absolute;
+    top: 254px;
+    right: 104px;
+    width: 290px;
+    z-index: 20;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+
+
+}
+
+div.Third .thirdcontainer .tv-container div.card img {
+    height: 80px;
+    width: 60px;
+    padding: 10px;
+}
+
+div.Third .thirdcontainer .tv-container div.card .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 25px 0px;
+    margin: 0px 0px;
+}
+
+div.Third .thirdcontainer .tv-container div.card .text h3 {
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: 0;
+}
+
+div.Third .thirdcontainer .tv-container div.card .text p {
+    color: #0071eb;
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 0;
+}
+
+/* div.Third .thirdcontainer .tv-container div.card {} */
+
+div.Third .thirdcontainer .tv-container img {
+    width: 501px;
+    height: 380px;
+    /* position: relative; */
+    z-index: 10;
+}
+
+div.Third .thirdcontainer .tv-container video {
+    position: absolute;
+    top: 80px;
+    right: -36px;
+    height: 204px;
+    width: 577px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+div.Fourth .fourthcontainer .text {
+    padding: 30px 0px;
+    margin: 10px;
+}
+
+div.Fourth .text h2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    /* text-align: left; */
+    /* padding: 0px 50px; */
+    text-align: justify;
+}
+
+div.Fourth .text p {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+
+    padding: 20px 0px;
+
+}
+
+div.Fourth .fourthcontainer {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+
+
+
+
+
+
+div.Fourth {
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+div.Fourth .fourthcontainer .tv-container {
+    position: relative;
+}
+
+div.Fourth .fourthcontainer .tv-container img {
+    width: 501px;
+    height: 380px;
+    position: relative;
+    z-index: 10;
+}
+
+div.Fourth .fourthcontainer .tv-container video {
+    position: absolute;
+    top: 39px;
+    right: 105px;
+    height: 167px;
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+div.Fifth {
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+div.Fifth .text h2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+
+
+}
+
+div.Fifth .text {
+    padding: 70px 0px;
+
+}
+
+div.Fifth .text p {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+div.Fifth .fifth-container {
+    display: flex;
+    gap: 10px;
+    padding: 50px 0px;
+    margin: 0px 170px;
+}
+
+
+/* div.Fifth .image {} */
+
+div.Fifth .image img {
+    height: 400px;
+    width: 500px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+div.Sixth {
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+div.Sixth p {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    /* padding: 30px 0px; */
+    margin: 0px 170px;
+}
+
+
+#flex-boxes {
+    margin: 0px 160px;
+}
+
+
+/* making a common class in every div make it easy to select and change elements by selecting just one class, it is better than below commented out method */
+#flex-boxes div.flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: #2b2b2b;
+    margin: 10px 0px;
+    padding: 25px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+#flex-boxes div.flex-box:hover {
+    transition: ease-in 300ms;
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+
+/* ________________________________
+ Below method is worst */
+/* #flex-box .box1{
+color: white;
+background-color: #232323;
+padding: 30px;
+margin: 22px;
+font-family: sans-serif;
+}
+#flex-box .box2{
+color: white;
+background-color: #232323;
+padding: 30px;
+margin: 22px;
+font-family: sans-serif;
+}
+#flex-box .box3{
+color: white;
+background-color: #232323;
+padding: 30px;
+margin: 22px;
+font-family: sans-serif;
+}
+#flex-box .box4{
+color: white;
+background-color: #232323;
+padding: 30px;
+margin: 22px;
+font-family: sans-serif;
+}
+#flex-box .box5{
+color: white;
+background-color: #232323;
+padding: 30px;
+margin: 22px;
+font-family: sans-serif;
+}
+#flex-box .box6{
+color: white;
+background-color: #232323;
+padding: 30px;
+margin: 22px;
+font-family: sans-serif;
+} */
+/* ________________________________ */
+
+div.Sixth .membership .text {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+div.Sixth .membership .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin: 16px;
+}
+
+div.Sixth .membership input {
+    border-color: 1px white;
+    border-style: ridge;
+    border-radius: 5px;
+    background-color: #141414;
+    color: white;
+    padding: 20px 90px;
+    margin-right: 10px;
+}
+
+div.Sixth .membership button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    font-family: sans-serif;
+    border-style: none;
+    border-radius: 3px;
+    padding: 17px 25px;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px 0px;
+
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+div.Seventh {
+    height: 67vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+div.Seventh .seventh-container {
+    margin: 70px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+div.Seventh .seventh-container .firstline p {
+    color: white;
+    font-family: sans-serif;
+    color: #ffffffb3;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+div.Seventh .seventh-container .list li {
+    list-style: none;
+    color: #ffffffb3;
+    padding: 7px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+    display: block;
+}
+
+div.Seventh .seventh-container .list li:hover {
+    cursor: pointer;
+}
+
+div.Seventh .seventh-container .list {
+    display: flex;
+    gap: 140px;
+}
+
+/* div.Seventh .seventh-container .button {} */
+
+div.Seventh .seventh-container .lastline {
+    color: #ffffffb3;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
